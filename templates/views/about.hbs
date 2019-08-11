@@ -1,15 +1,21 @@
 <!DOCTYPE html>
+
 <html>
-    <head>
-        <title>About</title>
-        
-        <link rel="stylesheet" href="./css/styles.css">
-    </head>
-    <body>
-        <div class="main-content">
-            {{>header}}
-        <img  class = "portrait"src="https://image.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-260nw-407021107.jpg">
-        </div>
-       {{>footer}}          
-    </body>
+
+<head>
+    <title>About</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>This site was created by Andrew Mead. It uses data from mapbox.com and darksky.net!</p>
+        <img class="portrait" src="/img/me.png">
+    </div>
+    
+    {{>footer}}
+</body>
+
 </html>
